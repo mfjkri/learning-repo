@@ -1,4 +1,4 @@
-# Using git-filter-repo
+# Installing git-filter-repo:
 
 You will need to have `python` and `pip` installed for this.\
 (Needs git v2.22+ and python v3.5+. Check with git --version && python3 --version)
@@ -6,6 +6,10 @@ You will need to have `python` and `pip` installed for this.\
 ```bash
 $ pip install git-filter-repo
 ```
+
+&nbsp;
+
+# Using git-filter-repo:
 
 ## Email only
 
@@ -18,7 +22,7 @@ $ git filter-repo --email-callback '
 ## Email & Name
 
 ```bash
-git filter-repo --commit-callback '
+$ git filter-repo --commit-callback '
     if commit.author_email == b"incorrect@email":
         commit.author_email = b"correct@email"
         commit.author_name = b"Correct Name"

@@ -33,9 +33,11 @@
 
     You can press `ESC/DEL/F12` etc to get into your BIOS/UEFI settings.
 
-4.  Once you have booted in SuperGrub2, select show everything and find your Linux bootloader.
+4.  Boot into SuperGrub2.
 
-5.  Boot into your Linux bootloader.
+    Once you have booted into SuperGrub2, select `Detect and show boot methods` and find your Linux boot entry.
+
+5.  Boot into your Linux operating system.
 
 &nbsp;
 
@@ -44,7 +46,11 @@
 1. Run this command:
 
    ```bash
+   # UEFI
    $ sudo grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=manjaro --recheck
+
+   # BIOS
+   $ sudo grub-install --target=i386-pc path/to/device
    ```
 
    Replace `manjaro` with whatever you would like the boot-entry to be called.

@@ -15,13 +15,13 @@
 2. Save a backup of your current boot entries (optional):
 
    ```
-   bcdedit /export D:some\path\bcdedit_backup.exe
+   $ bcdedit /export D:some\path\bcdedit_backup.exe
    ```
 
    Note: If something goes wrong later you can run this command to restore from the backup file.
 
    ```
-   bcdedit /import D:path\to\bcdedit_backup.exe
+   $ bcdedit /import D:path\to\bcdedit_backup.exe
    ```
 
 3. Find the boot entry of the Linux system:
@@ -32,7 +32,7 @@
    Run this command, replacing `$IDENTIFIER` with the one you copied.
 
    ```
-   bcdedit /delete $IDENTIFIER
+   $ bcdedit /delete $IDENTIFIER
    ```
 
 4. Open up Drive Management.

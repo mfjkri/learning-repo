@@ -21,7 +21,7 @@
       tmpfs            16G  3.8M   16G   1% /tmp
       /dev/nvme1n1p1  300M  288K  300M   1% /boot/efi
       tmpfs           3.2G   96K  3.2G   1% /run/user/1000
-      /dev/usb_drive       3.8G  3.0G  821M  79% /run/media/.../USBDRIVE
+      /dev/usb_drive  3.8G  3.0G  821M  79% /run/media/.../USBDRIVE
 
 
       $ sudo dd if=file.iso of=/dev/usb_drive status=progress

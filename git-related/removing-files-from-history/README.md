@@ -36,7 +36,7 @@
 
 ```bash
 # Removing a file from commits history
-$ git obliterate path/to/file.extension
+$ git obliterate path/to/$FILE.EXTENSION
 
 # Removing a directory from commits history
 $ git obliterate path/to/directory/

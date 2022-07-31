@@ -103,6 +103,6 @@
 
 ## References:
 
-- [Arch wiki](ttps://wiki.archlinux.org/title/Unified_Extensible_Firmware_Interface/Secure_Boot#shim)
+- [Arch wiki](https://wiki.archlinux.org/title/Unified_Extensible_Firmware_Interface/Secure_Boot#shim)
 - [Steps in video form](https://www.youtube.com/watch?v=RVkCIc8CzR8)
 - [Enrolling keys with MOK Manager](https://www.youtube.com/watch?v=Ljbagg4iXq4&t=0s)
